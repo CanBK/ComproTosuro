@@ -1,0 +1,76 @@
+.marker {
+  position: relative;
+  display: inline;
+  width: auto;
+}
+
+.marker-center {
+  padding-right: 0;
+}
+
+.marker:after {
+  content: "";
+  width: 125px;
+  height: 30px;
+  position: absolute;
+  bottom: -25px;
+  right: -30px;
+  background-image: url("../img/marker.svg");
+  background-repeat: no-repeat;
+}
+
+.marker-center:after {
+  bottom: -30px;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.bg-white {
+  background-color: #00E4FF !important;
+  color: #FFF;
+/*  font-weight: bold;*/
+
+}
+.bold {
+  color: #FFF;
+  font-weight: bold;
+
+}
+.bg-yellow {
+  background-color: #FCBA04 !important;
+
+}
+.border {
+  border: 2px solid #f4f6f8 !important;
+}
+.rounded-circle {
+  border-radius: 50% !important;
+}
+.d-inline-block {
+  display: inline-block !important;
+}
+.mt-n4 {
+    margin-top: -3rem!important;
+}
+.mt-3 {
+    margin-top: 3rem!important;
+}
+.mt-2 {
+    margin-top: 2rem!important;
+}
+.text-small {
+    font-size: 1rem;
+}
+.card-servis{
+  height: 35vh;
+}
+.py-3 {
+    padding-top: 4rem!important;
+    padding-bottom: 2rem!important;
+}
+.member-info a{
+  color:#222222;
+}
+.member-info a:hover{
+  color: #00E4FF;
+}
